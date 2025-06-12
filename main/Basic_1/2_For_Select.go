@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func fibonacci(c, quit chan int) {
-	x, y := 1, 1
+	x, y := 0, 1
 	for {
 		select {
 		case c <- x:
