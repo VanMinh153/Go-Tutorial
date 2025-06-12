@@ -79,7 +79,7 @@ func main() {
 	default:
 		fmt.Println("Good evening.")
 	}
-	
+
 	for i := 1; i <= 5; i++ {
 		defer fmt.Println(i)
 	}
