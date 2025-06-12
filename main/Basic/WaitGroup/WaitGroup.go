@@ -5,10 +5,10 @@ import (
 	"sync"
 )
 
-func hello(wgrp *sync.WaitGroup) {
-	fmt.Println("Hello")
-	wgrp.Done()
-}
+// func hello(wgrp *sync.WaitGroup) {
+// 	fmt.Println("Hello")
+// 	wgrp.Done()
+// }
 
 func main() {
 	//     var wg sync.WaitGroup
